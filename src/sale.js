@@ -23,6 +23,8 @@ class Sale {
         const allowedStates = ['pending', 'in progress', 'completed', 'cancelled'];
         if (allowedStates.includes(newState)) {
             this.state = newState;
+        } else {
+            throw new Error('Invalid state');
         }
     }
 
