@@ -4,7 +4,8 @@
   "description": "",
   "main": "/src",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
   },
   "keywords": [],
   "author": "",
