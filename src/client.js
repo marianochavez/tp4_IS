@@ -15,6 +15,8 @@ class Client {
         const isValid = emailRegex.test(this.email);
         return isValid;
     }
+
+    
 }
 
 module.exports = Client;
