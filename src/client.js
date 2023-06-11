@@ -16,7 +16,10 @@ class Client {
         return isValid;
     }
 
-    
+    isValidClient() {
+        const isValid = this.isValidEmail() && this.name !== "";
+        return isValid;
+    }
 }
 
 module.exports = Client;
